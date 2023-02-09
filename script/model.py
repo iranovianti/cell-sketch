@@ -1,5 +1,7 @@
 import tensorflow as tf
 
+#tensorflow implementation of pix2pix from https://www.tensorflow.org/tutorials/generative/pix2pix
+
 def downsample(filters, size, apply_batchnorm=True):
 	initializer = tf.random_normal_initializer(0., 0.02)
 
